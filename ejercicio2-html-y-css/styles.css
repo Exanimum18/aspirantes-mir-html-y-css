@@ -1,8 +1,8 @@
-h1, h2, p{
+h1, h2, label{
     color: white;
 }
 
-.form {
+form {
     width: 300px;
     padding: 20px;
     border-radius: 20px;
@@ -14,6 +14,7 @@ h1, h2, p{
 #email, #password, #genero, #selector {
     width: 98%;
     padding: 7px 0px;
+    margin-bottom: 20px;
 }
 
 #tyc {
