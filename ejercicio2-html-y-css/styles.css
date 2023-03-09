@@ -1,0 +1,39 @@
+h1, h2, p{
+    color: white;
+}
+
+.form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+}
+
+#email, #password, #genero, #selector {
+    width: 98%;
+    padding: 7px 0px;
+}
+
+#tyc {
+    margin-right: 15px;
+}
+
+.tyc {
+    display: flex;
+}
+
+.btnContainer {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 5px 15px;
+}
+
+@media (max-width: 500px){
+    .form {
+        width: 100%;
+    }
+}
